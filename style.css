@@ -29,3 +29,9 @@ section {
 ul {
     padding-left: 20px;
 }
+.highlight {
+    background-color: #e0f2fe;
+    padding: 15px;
+    border-left: 5px solid #0284c7;
+    margin-bottom: 30px;
+}
