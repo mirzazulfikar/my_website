@@ -1,13 +1,31 @@
 body {
-    font-family: Arial;
-    background-color: #f4f4f4;
-    margin: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    margin-bottom: 40px;
 }
 
 h1 {
-    color: darkblue;
+    font-size: 36px;
+    margin-bottom: 5px;
 }
 
 h2 {
-    color: #333;
+    margin-top: 30px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    padding-left: 20px;
 }
