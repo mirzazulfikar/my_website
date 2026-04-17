@@ -1,88 +1,80 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Recruitment Automation | Zulfikar Mirza</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<header>
-    <h1>Recruitment Process Automation</h1>
-    <p>Case Study</p>
-</header>
-
 <main>
 
 <section>
     <h2>Overview</h2>
     <p>
-        This project focuses on automating candidate sourcing and hiring signal detection
-        to reduce manual effort and improve recruitment efficiency.
+        This project involved designing and implementing an end-to-end recruitment system 
+        combining candidate intake, automated CV screening, and centralized data management.
+    </p>
+    <p>
+        The system integrates Google Forms (frontend and database) with Google Apps Script (automation engine) 
+        to reduce manual workload and improve screening efficiency.
     </p>
 </section>
 
 <section>
     <h2>Problem</h2>
     <p>
-        Recruitment sourcing was highly manual, requiring recruiters to search across multiple platforms,
-        track signals manually, and consolidate data in spreadsheets. This led to inefficiencies,
-        slow response times, and inconsistent tracking.
+        Recruitment processes relied heavily on manual CV screening, spreadsheet tracking, 
+        and inconsistent evaluation criteria. This resulted in slow turnaround times, 
+        high administrative workload, and limited visibility into candidate quality.
     </p>
 </section>
 
 <section>
-    <h2>Approach</h2>
-    <p>
-        Designed a structured workflow that automates the identification of hiring signals
-        using search-based methods and centralized data collection.
-    </p>
-</section>
-
-<section>
-    <h2>Solution</h2>
+    <h2>System Design</h2>
     <ul>
-        <li>Automated sourcing workflows using structured search queries</li>
-        <li>Centralized candidate and hiring signal tracking</li>
-        <li>Reduced reliance on manual spreadsheet tracking</li>
+        <li><strong>Frontend:</strong> Public candidate submission form built using Google Form</li>
+        <li><strong>Data Layer:</strong> Centralized candidate database with structured fields and scoring logic</li>
+        <li><strong>Backend:</strong> Google Apps Script linked to Gemini API for CV parsing, data extraction, and automated scoring</li>
     </ul>
 </section>
 
 <section>
-    <h2>Tools & Technologies</h2>
+    <h2>How It Works</h2>
+    <ol>
+        <li>Candidate submits application through AppSheet form</li>
+        <li>Data is stored in a structured database</li>
+        <li>Google Apps Script extracts key information from CVs</li>
+        <li>System applies scoring logic based on experience, education, and skills against the applied Job description</li>
+        <li>Candidates are automatically ranked and categorized</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Key Features</h2>
     <ul>
-        <li>Search-based automation techniques</li>
-        <li>Data structuring workflows</li>
-        <li>Google Workspace tools</li>
+        <li>Automated CV parsing and data extraction</li>
+        <li>Standardized candidate evaluation framework</li>
+        <li>Dynamic scoring and ranking system</li>
+        <li>Centralized tracking across recruitment stages</li>
     </ul>
 </section>
 
 <section>
     <h2>Results</h2>
     <ul>
-        <li>Reduced manual sourcing effort by up to 90%</li>
-        <li>Improved speed in identifying hiring needs</li>
-        <li>Allowed recruiters to focus on interviews and evaluation</li>
+        <li>Reduced manual CV screening effort by up to 90%</li>
+        <li>Improved consistency in candidate evaluation</li>
+        <li>Enabled faster identification of high-quality candidates</li>
+        <li>Freed up recruiter time for interviews and decision-making</li>
     </ul>
 </section>
 
 <section>
-    <h2>Project Links</h2>
-    <p>
-        <a href="https://drive.google.com/drive/folders/1VD_77nC4GxyaAG6MrBZk1OY2m2sJnzTL?usp=drive_link" target="_blank">
-            View Full Documentation →
-        </a>
-    </p>
+    <h2>Documentation & Technical Details</h2>
+    <ul>
+        <li>
+            <a href="https://drive.google.com/drive/folders/1VD_77nC4GxyaAG6MrBZk1OY2m2sJnzTL?usp=drive_link" target="_blank">
+                View Full System Documentation →
+            </a>
+        </li>
+    </ul>
 </section>
 
 <section>
     <h2>Back</h2>
-    <p>
-        <a href="index.html">← Back to Portfolio</a>
-    </p>
+    <p><a href="index.html">← Back to Portfolio</a></p>
 </section>
 
 </main>
-
-</body>
-</html>
