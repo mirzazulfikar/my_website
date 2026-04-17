@@ -1,72 +1,92 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     background-color: #f9fafb;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
-    padding: 20px;
-    line-height: 1.6;
+    padding: 40px 20px;
+    line-height: 1.7;
+    color: #111827;
 }
 
-section ul li {
-    margin-bottom: 10px;
-}
-
+/* HEADER */
 header {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 40px;
     margin-bottom: 5px;
+    letter-spacing: -0.5px;
+}
+
+header p {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+/* HERO / HIGHLIGHT */
+.highlight {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    margin-bottom: 40px;
 }
 
 .highlight h2 {
     margin-top: 0;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .highlight p {
     margin: 8px 0;
 }
 
-h2 {
-    margin-top: 30px;
-    border-bottom: 2px solid #e5e7eb;
-    padding-bottom: 5px;
-}
-
+/* SECTIONS */
 section {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
+h2 {
+    margin-top: 40px;
+    font-size: 20px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 6px;
+}
+
+/* LISTS */
 ul {
     padding-left: 20px;
 }
 
-.highlight {
-    background-color: #e0f2fe;
-    padding: 15px;
-    border-left: 5px solid #0284c7;
-    margin-bottom: 30px;
+li {
+    margin-bottom: 10px;
 }
 
+/* PROJECT CARDS */
 .project {
     margin-bottom: 25px;
-    padding: 15px;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
+    padding: 18px;
+    border-radius: 10px;
     background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.project a {
-    display: inline-block;
-    margin-top: 8px;
+.project:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
 }
 
+.project h3 {
+    margin-top: 0;
+}
+
+/* LINKS */
 a {
-    color: #0284c7;
+    color: #2563eb;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 a:hover {
