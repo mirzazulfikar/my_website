@@ -8,6 +8,15 @@ body {
     color: #111827;
 }
 
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+header p {
+    color: #6b7280;
+}
+
 /* HEADER */
 header {
     margin-bottom: 30px;
