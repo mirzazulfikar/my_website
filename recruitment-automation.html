@@ -40,7 +40,21 @@
         <li>Candidates are automatically ranked and categorized</li>
     </ol>
 </section>
+    
+<section>
+    <h2>System Architecture</h2>
 
+    <div class="architecture">
+        <div>Candidate</div>
+        <div>AppSheet Form (Frontend)</div>
+        <div>Database (AppSheet)</div>
+        <div>Apps Script (Automation)</div>
+        <div>Scoring & Ranking</div>
+        <div>Recruiter Dashboard</div>
+    </div>
+
+</section>
+    
 <section>
     <h2>Key Features</h2>
     <ul>
@@ -72,6 +86,32 @@
     </ul>
 </section>
 
+<section>
+    <h2>Lessons Learned</h2>
+
+    <ul>
+        <li>
+            <strong>Automation requires sustainability:</strong> 
+            The system relied on Gemini API tokens for CV screening. The project was discontinued after 3 months due to token limitations and budget constraints, highlighting the importance of aligning technical solutions with long-term operational support.
+        </li>
+
+        <li>
+            <strong>AI improves speed, but not accuracy alone:</strong> 
+            While automation significantly reduced manual effort, human validation remained necessary. AI-generated results were cross-checked to ensure reliability.
+        </li>
+
+        <li>
+            <strong>Fail-safe mechanisms are critical:</strong> 
+            Implemented random sampling on rejected candidates to ensure qualified profiles were not overlooked due to AI misclassification.
+        </li>
+
+        <li>
+            <strong>Change management matters:</strong> 
+            Adoption of automation tools depends not only on technical effectiveness, but also stakeholder understanding and buy-in.
+        </li>
+    </ul>
+
+</section>  
 <section>
     <h2>Back</h2>
     <p><a href="index.html">← Back to Portfolio</a></p>
